@@ -1,10 +1,11 @@
 package pro.uriel.practica1;
 
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 public class LoginActivity extends BaseActivity {
 
@@ -18,6 +19,6 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void initView() {
         super.initView();
-
     }
+
 }
