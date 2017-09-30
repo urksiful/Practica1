@@ -17,13 +17,20 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutResID());
-
+        initView();
     }
 
     @LayoutRes
     protected abstract int getLayoutResID();
 
-    public void suma(){
+    /**
+     * La vista fue creada
+     */
+    protected void initView(){
+
+
 
     }
+
+
 }
