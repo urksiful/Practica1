@@ -22,4 +22,8 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @LayoutRes
     protected abstract int getLayoutResID();
+
+    public void suma(){
+
+    }
 }
