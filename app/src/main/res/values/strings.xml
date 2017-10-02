@@ -2,4 +2,6 @@
     <string name="app_name">Practica1</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="login_text_hint_correo_electronico">Correo Electrónico</string>
+    <string name="login_text_hint_contraseña">Contraseña</string>
 </resources>

@@ -10,6 +10,7 @@ import android.view.View;
 public class LoginActivity extends BaseActivity {
 
     private static final String TAG = LoginActivity.class.getName() ;
+    private Toolbar toolbar;
 
     @Override
     protected int getLayoutResID() {
@@ -21,4 +22,8 @@ public class LoginActivity extends BaseActivity {
         super.initView();
     }
 
+    private void initConfigToolbar(){
+        toolbar = getToolbar();
+        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_keyboard_arrow_left_white_24dp));
+    }
 }
